@@ -1,33 +1,29 @@
 body{
-  background-image: url(https://image.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58930.jpg);
-  background-size: 100% auto;
-  position: sticky;
+  background-image: url(https://pngimage.net/wp-content/uploads/2018/05/background-pet-png-2.png);
+  background-size: 150% auto;
+  position:absolute;
   width: 100%;
   margin: 0 auto;
   padding-top: 4em;
 
 }
+
 form{
 
   width: 45%;
-  margin-top: 20px;
+  margin-top: -10px;
   margin-left: 700px;
 
 }
 li{
-  color: PaleVioletRed;
+  color: DarkOrange;
   display: list-item;
   list-style-type: circle;
   padding-top: 8em;
   margin-left: 5em;
   padding: 1em;
 }
-ul{
-  border-style:inset;
-  border: 5px solid steelblue;
-  border-radius: 15px 15px 15px 15px;
-  box-sizing: border-box;
-}
+
 #s{
   margin-left:5em;
   font-family: Arial, sans-serif;
@@ -41,18 +37,25 @@ ul{
   font-size: 1.5em;
   font-weight: bold;
   color: PaleVioletRed;
-  padding-bottom: 0.2px;
-  margin-top: -380px;
+  padding-bottom: 16px;
+  margin-top: -440px;
   margin-left: 28.5em;
 }
 
 #left{
   text-align: left;
-  margin: 90 auto;
+  margin-top: 200px;
+  padding-top: 20px;
   font-family: Arial, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   color: PaleVioletRed;
+  border-style:inset;
+  border: 5px solid steelblue;
+  border-radius: 15px 15px 15px 15px;
+  box-sizing:border-box;
+  width:  35%;
+
 }
 
 #img{
@@ -70,13 +73,14 @@ ul{
   font-weight: bold;
   color: PaleVioletRed;
   padding-bottom: .6em;
-  margin-top: -1em;
+  margin-top: -5em;
 }
 
 #body{
   border-style: inset;
   border: 5px solid steelblue;
   border-radius: 15px 15px 15px 15px;
+
 }
 
 #first_name, #last_name,#email,#phone,#date_of_birth{
