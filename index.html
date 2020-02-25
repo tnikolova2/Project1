@@ -14,21 +14,28 @@
   </div>
   <div id="left">
     <h2>Services</h2>
+     <ul>
+       <li>Pet Boarding</li>
+       <li>In Home Sitting Services</li>
+       <li>Pet Grooming Services</li>
+       <li>Dog Training</li>
+       <li>Dog Walking Services</li>
+     </ul>
   </div>
   <div id="right">
     <h2>Some of our happy customers</h2>
   </div>
   <div id="center">
-    <h2>Receive 50% off first three services of your choice by signing up here</h2>
+    <h3>Receive 50% off first three services of your choice by signing up here</h3>
   </div>
   <form method="get" autocomplete="on" action="#">
     <div id="body">
      <fieldset>
-       <div id="first_name"><label>First Name:<input type="text" name="first_name_field"></label></div>
-       <div id="last_name"><label>Last Name:<input type="text" name="last_name_field"></label></div>
-       <div id="email"><label>Email Address:<input type="email" name="email_field" placeholder="example@yahoo.com"></label></div>
-       <div id="phone"><label>Phone Number:<input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="111-111-1111"></label></div>
-       <div id="date_of_birth"><label>Date of Birth:<input type="text" name="date_field" placeholder="mm/dd/yyyy"></label></div>
+       <div id="first_name"><label>First Name:<input type="text" name="first_name_field" required></label></div>
+       <div id="last_name"><label>Last Name:<input type="text" name="last_name_field" required></label></div>
+       <div id="email"><label>Email Address:<input type="email" name="email_field" placeholder="example@yahoo.com" required></label></div>
+       <div id="phone"><label>Phone Number:<input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="111-111-1111" required></label></div>
+       <div id="date_of_birth"><label>Date of Birth:<input type="text" name="date_field" placeholder="mm/dd/yyyy" required></label></div>
      </fieldset>
     </div>
     <input type="submit" onclick="AlertPage()" value="SUBMIT"/>
