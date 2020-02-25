@@ -2,10 +2,67 @@ body{
   background-image: url(https://image.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58930.jpg);
   background-size: 100% auto;
   position: sticky;
+  width: 100%;
   margin: 0 auto;
-  width: 30%;
   padding-top: 4em;
+
 }
+form{
+
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 400px;
+
+}
+li{
+  color: PaleVioletRed;
+  display: list-item;
+  list-style-type: circle;
+  margin-left: 3em;
+  padding: 1em;
+}
+#s{
+  margin-left:3em;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: PaleVioletRed;
+}
+h3{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: PaleVioletRed;
+  padding-bottom: 0.2px;
+  margin-top: 480px;
+  margin-left: 3em;
+}
+
+#left{
+  text-align: left;
+  margin: 90 auto;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: PaleVioletRed;
+}
+
+#right{
+  text-align: right;
+  margin-top: -400px;
+  margin-right: 1.5em;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: PaleVioletRed;
+}
+#img{
+  position:inherit;
+
+
+}
+
 
 #title{
   text-align: center;
@@ -76,7 +133,7 @@ input[type=submit] {
   text-align: center;
   display: inline-block;
   font-size: 23px;
-  margin: 20px 120px;
+  margin: 20px 280px;
   background-color: steelblue;
   border-radius: 15px 15px 15px 15px;
   color: Azure;
@@ -88,7 +145,7 @@ input[type=submit]:hover {
   background-color: PaleVioletRed;
   color: Azure;
 }
-
+/*
 @media only screen and (min-width: 320px) {
   body{
     background-image: url(https://image.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58930.jpg);
@@ -277,3 +334,4 @@ input[type=submit]:hover {
     color: Azure;
   }
 }
+*/
