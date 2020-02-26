@@ -156,6 +156,11 @@ input[type=submit]:hover {
     margin: 0 auto;
     padding-top: 4em;
   }
+  #img{
+    height: auto;
+    
+
+  }
 
   #title{
     text-align: center;
