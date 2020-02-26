@@ -1,26 +1,24 @@
 body{
-  background-image: url(https://pngimage.net/wp-content/uploads/2018/05/background-pet-png-2.png);
-  background-size: 150% auto;
-  position:absolute;
+  background-image:url('../images/back.png');
+  background-size: 120% auto;
+  background-repeat:no-repeat;
+  position:static;
   width: 100%;
   margin: 0 auto;
   padding-top: 4em;
-
 }
 
 form{
-
   width: 45%;
   margin-top: -10px;
   margin-left: 700px;
-
 }
-li{
 
+li{
   color: DarkOrange;
   text-shadow: DarkOrange 0px 0px 100px;
   display: list-item;
-  list-style-type: circle;
+  list-style-type:circle;
   padding-top: 8em;
   margin-left: 5em;
   padding: 1em;
@@ -31,14 +29,15 @@ li{
   font-family: Arial, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
-  color: DarkOrange;
+  color: Coral;
 }
+
 #center{
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
-  color: DarkOrange;
+  color: steelblue;
   padding-bottom: 16px;
   margin-top: -440px;
   margin-left: 28.5em;
@@ -46,7 +45,7 @@ li{
 
 #left{
   text-align: left;
-  margin-top: 200px;
+  margin-top: 350px;
   padding-top: 20px;
   font-family: Arial, sans-serif;
   font-size: 1.5em;
@@ -57,14 +56,12 @@ li{
   border-radius: 15px 15px 15px 15px;
   box-sizing:border-box;
   width:  35%;
-
 }
 
 #img{
   position:relative;
   margin-left: 20px;
 }
-
 
 #title{
   text-align: center;
@@ -73,16 +70,15 @@ li{
   font-family: Arial, sans-serif;
   font-size: 3em;
   font-weight: bold;
-  color: DarkOrange;
+  color: Brown;
   padding-bottom: .6em;
-  margin-top: -5em;
+  margin-top: -8.5em;
 }
 
 #body{
   border-style: inset;
   border: 5px solid steelblue;
   border-radius: 15px 15px 15px 15px;
-
 }
 
 #first_name, #last_name,#email,#phone,#date_of_birth{
@@ -149,13 +145,16 @@ input[type=submit]:hover {
   background-color: DarkOrange;
   color: Azure;
 }
-/*
+
 @media only screen and (min-width: 320px) {
   body{
-    background-image: url(https://image.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58930.jpg);
-    background-size: 100% auto;
-    background-size: 1200px 800px;
-    position: sticky;
+    background-image:url('../images/back.png');
+    background-size: 120% auto;
+    background-repeat:no-repeat;
+    position:static;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 4em;
   }
 
   #title{
@@ -165,7 +164,7 @@ input[type=submit]:hover {
     font-family: Arial, sans-serif;
     font-size: 3em;
     font-weight: bold;
-    color: PaleVioletRed;
+    color: Brown;
     padding-bottom: .6em;
   }
 
@@ -244,32 +243,33 @@ input[type=submit]:hover {
 }
 @media only screen and (min-width: 768px) {
   body{
-    background-image: url(https://image.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58930.jpg);
-    background-size: 100% auto;
-    position: sticky;
+    background-image:url('../images/back.png');
+    background-size: 120% auto;
+    background-repeat:no-repeat;
+    position:static;
+    width: 100%;
     margin: 0 auto;
-    width: 30%;
     padding-top: 4em;
   }
 
   #title{
     text-align: center;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 30px;
+    padding-top:20px;
+    padding-left:700px;
     font-family: Arial, sans-serif;
     font-size: 3em;
     font-weight: bold;
-    color: PaleVioletRed;
+    color: Brown;
     padding-bottom: .6em;
+    margin-top: -8.5em;
   }
 
   #body{
     border-style: inset;
     border: 5px solid steelblue;
     border-radius: 15px 15px 15px 15px;
-    height: 550px;
-    width: 430px
+    width: 500px;
+    height: 400px;
   }
 
   #first_name, #last_name,#email,#phone,#date_of_birth{
@@ -277,11 +277,21 @@ input[type=submit]:hover {
     font-family: Arial, sans-serif;
     font-size: 2em;
     font-weight: bold;
-    color: PaleVioletRed;
+    color: DarkOrange;
+
   }
 
+  form{
+    width: 55%;
+    margin-top: -10px;
+    margin-left: 800px;
+  }
+
+
+
+
   input[type=text]{
-    width: 340px;
+    width:260px;
     height:40px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
@@ -292,7 +302,7 @@ input[type=submit]:hover {
   }
 
   input[type=email]{
-    width: 340px;
+    width: 230px;
     height:40px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
@@ -309,7 +319,7 @@ input[type=submit]:hover {
   }
 
   input[type=tel]{
-    width: 340px;
+    width: 220px;
     height:40px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
@@ -338,4 +348,3 @@ input[type=submit]:hover {
     color: Azure;
   }
 }
-*/
