@@ -147,7 +147,7 @@ input[type=submit]:hover{
   color: Azure;
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 320px){
   body{
     background-image:url('../images/back.png');
     background-size: 270% auto;
@@ -197,7 +197,7 @@ input[type=submit]:hover{
     border: 5px solid steelblue;
     border-radius: 15px 15px 15px 15px;
     box-sizing:border-box;
-    width:  75%;
+    width:  45%;
   }
 
   #center{
@@ -270,7 +270,7 @@ input[type=submit]:hover{
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 767px){
   body{
     background-image:url('../images/back.png');
     background-size: 120% auto;
