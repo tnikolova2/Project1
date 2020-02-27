@@ -309,14 +309,15 @@ input[type=submit]:hover {
     font-size: 1.5em;
     font-weight: bold;
     color: steelblue;
-    padding-bottom: 16px;
-    margin-top: -440px;
-    margin-left: 19.5em;
+    padding-bottom: 30px;
+    margin-top: -510px;
+    margin-left: 25.5em;
+    width: 40%;
   }
 
   #left{
     text-align: left;
-    margin-top: 350px;
+    margin-top: 450px;
     padding-top: 20px;
     font-family: Arial, sans-serif;
     font-size: 1.5em;
@@ -352,6 +353,7 @@ input[type=submit]:hover {
     border-radius: 15px 15px 15px 15px;
     height: 500px;
     width: 400px;
+    margin-bottom: 20px;
   }
 
   #first_name, #last_name,#email,#phone,#date_of_birth{
