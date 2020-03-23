@@ -59,10 +59,7 @@ li{
   width: 35%;
 }
 
-#img{
-  position:relative;
-  margin-left: 20px;
-}
+
 
 #title{
   text-align: center;
@@ -150,7 +147,7 @@ input[type=submit]:hover{
 @media only screen and (min-width: 320px){
   body{
     background-image:url('../images/back.png');
-    background-size: 270% auto;
+    background-size: 170% auto;
     background-repeat:no-repeat;
     position:static;
     max-width: 150%;
@@ -158,12 +155,23 @@ input[type=submit]:hover{
     padding-top: 4em;
   }
 
+  .box{
+  width: 40%;
+  height: 200px;
+  }
+
+  img{
+  width: 70%;
+  height: 100%;
+  padding-left: 20px;
+  }
+
   #title{
     text-align: center;
     padding-top: 450px;
     padding-left: 150px;
     font-family: Arial, sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     color: Brown;
     padding-bottom: .6em;
@@ -173,14 +181,16 @@ input[type=submit]:hover{
     border-style: inset;
     border: 5px solid steelblue;
     border-radius: 15px 15px 15px 15px;
-    height: 360px;
-    width: 570px;
+    height: 300px;
+    width: 405px;
+    margin-top: 20px;
+    margin-left: -20em;
   }
 
   #first_name, #last_name,#email,#phone,#date_of_birth{
     padding-bottom: .3em;
     font-family: Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     color: DarkOrange;
   }
@@ -190,7 +200,7 @@ input[type=submit]:hover{
     margin-top: 35px;
     padding-top: 20px;
     font-family: Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     color: DarkOrange;
     border-style:inset;
@@ -200,21 +210,29 @@ input[type=submit]:hover{
     width:  45%;
   }
 
-  #center{
-    text-align: center;
+  #s{
+    margin-left:3em;
     font-family: Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+    color: Coral;
+  }
+
+  #center{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
     color: steelblue;
     padding-bottom: 30px;
-    margin-top: -580px;
-    margin-left: 35em;
+    margin-top: -400px;
+    margin-left: 18em;
     width: 80%
   }
 
   input[type=text]{
-    width: 340px;
-    height:40px;
+    width: 250px;
+    height:30px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
     background-color: Azure;
@@ -224,8 +242,8 @@ input[type=submit]:hover{
   }
 
   input[type=email]{
-    width: 340px;
-    height:40px;
+    width: 250px;
+    height:30px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
     background-color: Azure;
@@ -241,8 +259,8 @@ input[type=submit]:hover{
   }
 
   input[type=tel]{
-    width: 340px;
-    height:40px;
+    width: 250px;
+    height:30px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
     background-color: Azure;
@@ -256,7 +274,7 @@ input[type=submit]:hover{
     text-align: center;
     display: inline-block;
     font-size: 23px;
-    margin: 20px 120px;
+    margin: 20px -200px;
     background-color: steelblue;
     border-radius: 15px 15px 15px 15px;
     color: Azure;
@@ -269,32 +287,27 @@ input[type=submit]:hover{
     color: Azure;
   }
 
-@media only screen and (min-width: 767px){
+@media only screen and (min-width: 768px){
   body{
     background-image:url('../images/back.png');
-    background-size: 120% auto;
+    background-size: 110% auto;
     background-repeat:no-repeat;
     position:static;
     width: 100%;
-    margin: 0 auto;
     padding-top: 4em;
   }
 
-  form{
-    width:45%;
-    margin-top: -10px;
-    margin-left: 900px;
+  .box{
+  width: 60%;
+  height: 200px;
   }
 
-  li{
-    color: DarkOrange;
-    text-shadow: DarkOrange 0px 0px 100px;
-    display: list-item;
-    list-style-type:circle;
-    padding-top: 8em;
-    margin-left: 4em;
-    padding: 1em;
+  img{
+  width: 60%;
+  height: 100%;
+  padding-left: 20px;
   }
+
 
   #s{
     margin-left:5em;
@@ -311,14 +324,14 @@ input[type=submit]:hover{
     font-weight: bold;
     color: steelblue;
     padding-bottom: 30px;
-    margin-top: -510px;
+    margin-top: -530px;
     margin-left: 33.5em;
     width: 40%;
   }
 
   #left{
     text-align: left;
-    margin-top: 450px;
+    margin-top: 150px;
     padding-top: 20px;
     font-family: Arial, sans-serif;
     font-size: 1.5em;
@@ -331,21 +344,18 @@ input[type=submit]:hover{
     width:  35%;
   }
 
-  #img{
-    position:relative;
-    margin-left: 20px;
-  }
+
 
   #title{
     text-align: center;
     padding-top:20px;
-    padding-left:700px;
+    padding-left:150px;
     font-family: Arial, sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
     color: Brown;
     padding-bottom: .6em;
-    margin-top: -8.5em;
+    margin-top: 1.5em;
   }
 
   #body{
@@ -355,6 +365,8 @@ input[type=submit]:hover{
     height: 500px;
     width: 400px;
     margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 10.5em;
   }
 
   #first_name, #last_name,#email,#phone,#date_of_birth{
@@ -411,7 +423,7 @@ input[type=submit]:hover{
     text-align: center;
     display: inline-block;
     font-size: 23px;
-    margin: 20px 140px;
+    margin: 20px 300px;
     background-color: steelblue;
     border-radius: 15px 15px 15px 15px;
     color: Azure;
