@@ -430,6 +430,6 @@ input[type=submit]:hover{
 
   input[type=submit]:hover{
     background-color: DarkOrange;
-    color: Azure;
+    
   }
 }
