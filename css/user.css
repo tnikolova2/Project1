@@ -286,7 +286,7 @@ input[type=submit]:hover{
     color: Azure;
   }
 
-@media only screen and (min-width: 768px){
+}@media only screen and (min-width: 768px){
 
   body{
     background-image:url('../images/back.png');
@@ -432,3 +432,4 @@ input[type=submit]:hover{
     background-color: DarkOrange;
     color: Azure;
   }
+}
