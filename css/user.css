@@ -52,19 +52,17 @@ li{
   font-size: 1.5em;
   font-weight: bold;
   color: DarkOrange;
-  border-style:inset;
+  border-style: inset;
   border: 5px solid steelblue;
   border-radius: 15px 15px 15px 15px;
-  box-sizing:border-box;
+  box-sizing: border-box;
   width: 35%;
 }
 
-
-
 #title{
   text-align: center;
-  padding-top:20px;
-  padding-left:700px;
+  padding-top: 20px;
+  padding-left: 700px;
   font-family: Arial, sans-serif;
   font-size: 3em;
   font-weight: bold;
@@ -79,7 +77,7 @@ li{
   border-radius: 15px 15px 15px 15px;
 }
 
-#first_name, #last_name,#email,#phone,#date_of_birth{
+#first_name, #last_name, #email, #phone, #date_of_birth{
   padding-bottom: .3em;
   font-family: Arial, sans-serif;
   font-size: 2em;
@@ -89,7 +87,7 @@ li{
 
 input[type=text]{
   width: 240px;
-  height:40px;
+  height: 40px;
   margin: 10px 0;
   border-radius: 15px 15px 15px 15px;
   background-color: Azure;
@@ -100,7 +98,7 @@ input[type=text]{
 
 input[type=email]{
   width: 340px;
-  height:40px;
+  height: 40px;
   margin: 8px 0;
   border-radius: 15px 15px 15px 15px;
   background-color: Azure;
@@ -145,11 +143,12 @@ input[type=submit]:hover{
 }
 
 @media only screen and (min-width: 375px){
+
   body{
     background-image:url('../images/back.png');
     background-size: 170% auto;
-    background-repeat:no-repeat;
-    position:static;
+    background-repeat: no-repeat;
+    position: static;
     max-width: 150%;
     max-height: 50%;
     padding-top: 4em;
@@ -203,15 +202,15 @@ input[type=submit]:hover{
     font-size: 1em;
     font-weight: bold;
     color: DarkOrange;
-    border-style:inset;
+    border-style: inset;
     border: 5px solid steelblue;
     border-radius: 15px 15px 15px 15px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     width:  45%;
   }
 
   #s{
-    margin-left:3em;
+    margin-left: 3em;
     font-family: Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
@@ -227,12 +226,12 @@ input[type=submit]:hover{
     padding-bottom: 30px;
     margin-top: -400px;
     margin-left: 18em;
-    width: 80%
+    width: 80%;
   }
 
   input[type=text]{
     width: 250px;
-    height:30px;
+    height: 30px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
     background-color: Azure;
@@ -243,7 +242,7 @@ input[type=submit]:hover{
 
   input[type=email]{
     width: 250px;
-    height:30px;
+    height: 30px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
     background-color: Azure;
@@ -260,7 +259,7 @@ input[type=submit]:hover{
 
   input[type=tel]{
     width: 250px;
-    height:30px;
+    height: 30px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
     background-color: Azure;
@@ -288,11 +287,12 @@ input[type=submit]:hover{
   }
 
 @media only screen and (min-width: 768px){
+
   body{
     background-image:url('../images/back.png');
     background-size: 110% auto;
-    background-repeat:no-repeat;
-    position:static;
+    background-repeat: no-repeat;
+    position: static;
     width: 100%;
     padding-top: 4em;
   }
@@ -308,9 +308,8 @@ input[type=submit]:hover{
   padding-left: 20px;
   }
 
-
   #s{
-    margin-left:5em;
+    margin-left: 5em;
     font-family: Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
@@ -337,19 +336,17 @@ input[type=submit]:hover{
     font-size: 1.5em;
     font-weight: bold;
     color: DarkOrange;
-    border-style:inset;
+    border-style: inset;
     border: 5px solid steelblue;
     border-radius: 15px 15px 15px 15px;
-    box-sizing:border-box;
-    width:  35%;
+    box-sizing: border-box;
+    width: 35%;
   }
-
-
 
   #title{
     text-align: center;
-    padding-top:20px;
-    padding-left:150px;
+    padding-top: 20px;
+    padding-left: 150px;
     font-family: Arial, sans-serif;
     font-size: 4em;
     font-weight: bold;
@@ -392,7 +389,7 @@ input[type=submit]:hover{
 
   input[type=email]{
     width: 340px;
-    height:40px;
+    height: 40px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
     background-color: Azure;
@@ -409,7 +406,7 @@ input[type=submit]:hover{
 
   input[type=tel]{
     width: 340px;
-    height:40px;
+    height: 40px;
     margin: 8px 0;
     border-radius: 15px 15px 15px 15px;
     background-color: Azure;
